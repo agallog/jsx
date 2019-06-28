@@ -4,7 +4,6 @@ const ApprovalCard = props => {
     return(
         <div className="ui card">
             <div className="content">
-                Are you sure?
                 {props.children}
             </div>
             <div className="extra content">
